@@ -1,0 +1,5 @@
+const inventory = require('./inventory')
+const result5 = require('./problem5')
+const test5= result5(inventory)
+console.log(test5)
+console.log(test5.length)
