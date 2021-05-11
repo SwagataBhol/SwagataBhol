@@ -1,0 +1,19 @@
+
+ function result1(inventory,id)
+{
+    
+    for(var i=0; i< inventory.length ; i++)
+    {
+        let c=inventory[i]
+
+        if(c.id===id)
+        {
+            
+           return c;
+          
+        }
+    }
+}
+
+
+module.exports= result1 ;
